@@ -1,0 +1,9 @@
+.form-bg {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+  background-size: cover;
+  background-position: center;
+}

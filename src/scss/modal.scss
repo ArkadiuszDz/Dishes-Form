@@ -1,0 +1,32 @@
+.modal {
+  padding: 30px 10px;
+  width: 95%;
+  max-width: 420px;
+  margin: auto;
+  min-height: 50vh;
+  position: absolute;
+  z-index: 12;
+  border: 1px solid black;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  .btn-wrapper {
+    padding: 50px 0;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    padding: 20px 5px;
+    text-align: center;
+  }
+  p {
+    padding: 5px 10px;
+  }
+  .field-name {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+}
+
